@@ -1437,6 +1437,8 @@ img {
 .thumbnail>img {
     display: block;
     max-width: 100%;
+    /* ajout du responsive pour les images plus petite que la div */
+    width: 100%;
     height: auto
 }
 
