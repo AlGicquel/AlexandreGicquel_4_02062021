@@ -7,16 +7,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.contact{
-    display: flex;
-    justify-content: center;
-}
-
-blockquote{
-    border-left: 0;
-    font-style: italic;
-}
-
 a,
 button {
     transition: all .3s ease-in-out;
@@ -687,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -781,16 +771,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #C85032;
+    background-color: #F3976C;
 }
 
 .tc-white {
-    /* couleur changée pour le contraste */
-    color: #FFE000!important;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
-    background: #C85032;
+    background: #F3976C;
     color: #FFFFFF!important;
 }
 
@@ -808,7 +797,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #C85032!important;
+    color: #F3976C!important;
 }
 
 .ltc-atomic-tangerine:hover {
