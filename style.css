@@ -12,6 +12,7 @@ body {
     justify-content: center;
 }
 
+/* modification du blockquote pour avoir le meme rendu qu'avec l'img */
 blockquote{
     border-left: 0;
     font-style: italic;
@@ -27,6 +28,12 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+}
+
+/* focus ajouté aux liens pour la navigation avec tab */
+a:focus{
+    border: 2px solid black;
+    border-radius: 3px;
 }
 
 #page-loading-blocs-notifaction {
@@ -712,6 +719,7 @@ p {
 
 .social {
     max-width: 400px;
+    /* margin top et bottom ajoutés pour une meilleure lisibilité */
     margin: 30px auto;
 
 }
