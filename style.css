@@ -31,7 +31,7 @@ a:hover {
 }
 
 /* focus ajouté aux liens pour la navigation avec tab */
-a:focus{
+a:focus, button:focus{
     border: 2px solid black;
     border-radius: 3px;
 }
