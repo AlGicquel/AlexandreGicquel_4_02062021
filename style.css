@@ -12,6 +12,10 @@ body {
     justify-content: center;
 }
 
+select, select option{
+    color: black;
+}
+
 /* modification du blockquote pour avoir le meme rendu qu'avec l'img */
 blockquote{
     border-left: 0;
