@@ -12,6 +12,7 @@ body {
     justify-content: center;
 }
 
+/* modification des couleur pour meilleur contraste */
 select, select option{
     color: black;
 }
